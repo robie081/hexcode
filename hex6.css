@@ -367,11 +367,13 @@ body {
         /* border: 2px solid green; */
     }
     .contact > h3:first-child {
+        font-size: var(--font-size-base);
         font-weight: var(--font-weight-normal);
         /* padding-top: var(--space-24); */
         opacity: var(--opacity-9);
     }
     .contact > h3:not(:first-child) {
+        font-size: var(--font-size-base);
         font-weight: var(--font-weight-normal);
         padding-top: var(--space-24);
         opacity: var(--opacity-9);
@@ -409,7 +411,7 @@ body {
         flex: 1 0 auto;
     } */
 
-    @keyframes dropDiv {
+    /* @keyframes dropDiv {
         0% { opacity: 0; };
         99% { opacity: 0; };
         100% { opacity: 1; };
@@ -418,7 +420,7 @@ body {
         animation-name: dropDiv;
         animation-iteration-count: 1;
         animation-timing-function: ease-in;
-    }
+    } */
 
     .footer {
         padding: var(--space-40) 0;
@@ -472,7 +474,7 @@ body {
 
    .header {
     padding: var(--space-24) 0;
-    border: 2px solid lightgreen;
+    /* border: 2px solid lightgreen; */
     }
     .nav-wrap {
         /* display: flex; */
@@ -548,7 +550,113 @@ body {
         width: 100%;
     }
 
-
+    .main {
+        padding: 0;
+        /* border: 2px solid red; */
+    }
+    .main-wrap {
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        margin: 0 auto;
+	    /* max-width: var(--grid-width); */
+	    padding: 0;
+        /* border: 2px solid skyblue; */
+    }
+    .content-wrap {               
+        /* display: flex; */
+        /* flex-flow: row wrap; */
+        /* justify-content: flex-start; */
+        /* list-style: none; */
+        /* margin: 0; */
+        /* flex-grow: 1; */
+        padding-right: var(--grid-column-medium-gutter);
+        padding-left: var(--grid-column-medium-gutter);
+        /* border: 2px solid burlywood; */
+    }
+    .main-header {
+        display: flex;
+        flex: 1;
+        /* margin: auto; */
+        /* max-width: var(--content-width); */
+        /* border: 2px solid black; */
+    }
+    .title {
+        font-size: 20px;
+        /* line-height: 40px; */
+        /* letter-spacing: var(--font-letter-space-negative); */
+        font-weight: var(--font-weight-normal);
+        /* border: 2px solid purple; */
+    }
+    .main-content {
+        /* width: 100%; */
+        display: flex;
+        /* align-items: center; */
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        flex-flow: row wrap;
+        word-break: break-word;
+        /* margin-top: var(--space-32); */
+        font-size: var(--font-size-small);
+        /* border: 2px solid yellow; */
+    }
+    .we-first {
+        /* border: 2px solid black; */
+        flex-basis: 100%;
+        /* transition: all 3s; */
+        padding-top: var(--space-8);
+    }
+    .we-design {
+        /* border: 2px solid green; */
+        flex-basis: 100%;
+        /* padding: 0 var(--space-12) 0 var(--space-12); */
+        /* animation-name: dropDiv;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in; */
+        animation-duration: 1s;
+    }
+    .we-develop {
+        /* border: 2px solid black; */
+        flex-basis: 100%;
+        /* animation-name: dropDiv;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in; */
+        animation-duration: 1.5s;
+    }
+    .we-golive {
+        /* border: 2px solid black; */
+        flex-basis: 100%;
+        /* animation-name: dropDiv;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in; */
+        animation-duration: 2s;
+    }
+    .we-design > h3, .we-develop > h3, .we-golive > h3 {
+        /* border: 1px solid black; */
+        font-size: var(--font-size-small);
+        font-weight: var(--font-weight-normal);
+        padding-top: var(--space-12);
+        padding-bottom: var(--space-8);
+        opacity: var(--opacity-9);
+    }
+    .main-content p {
+        /* margin-top: var(--space-12); */
+        color: var(--color-para-font);
+        /* padding-right: var(--space-24); */
+        /* margin-bottom: var(--space-32); */
+        opacity: var(--opacity-9);
+        font-family: var(--font-family-second);
+        /* font-weight: var(--font-weight-small); */
+    }
+    /* @keyframes dropDiv {
+        0% { opacity: 0; };
+        99% { opacity: 0; };
+        100% { opacity: 1; };
+    }
+    .anima {
+        animation-name: dropDiv;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+    } */
 }
 
 @media (min-width: 768px) {
@@ -563,6 +671,19 @@ h1 {
 blockquote, body, dd, dl, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, legend, ol, p, pre, ul {
 	margin: 0;
 	padding: 0;
+}
+
+/* Animation */
+
+@keyframes dropDiv {
+    0% { opacity: 0; };
+    99% { opacity: 0; };
+    100% { opacity: 1; };
+}
+.anima {
+    animation-name: dropDiv;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
 }
 
 /* h1, h2, h3, h4, h5, h6 {
