@@ -85,10 +85,11 @@
 }
 html {
     -webkit-text-size-adjust: 100%;
-  }
-html {
-	line-height: 18.4px;
+    line-height: 18.4px;
 }
+/* html {
+	line-height: 18.4px;
+} */
 
 body {
 	direction: ltr;
@@ -617,7 +618,7 @@ body {
         font-size: 16px;
         /* border: 2px solid yellow; */
         font-size: var(--font-size-small);
-        background-color: yellowgreen;
+        /* background-color: yellowgreen; */
     }
     .we-first {
         /* border: 2px solid black; */
@@ -719,7 +720,7 @@ body {
         /* font-weight: var(--font-weight-medium); */
         /* font-size: var(--font-size-large); */
         /* height: 23rem; */
-        border: 3px solid black;
+        /* border: 3px solid black; */
     }
     .first {
         /* border: 2px solid red; */
