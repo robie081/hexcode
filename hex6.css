@@ -674,8 +674,8 @@ body {
         opacity: var(--opacity-9);
         font-family: var(--font-family-second);
         /* border: 2px solid lightblue; */
-        background-color: lightblue;
-        font-size: var(--font-size-small);
+        background-color: lightgreen;
+        /* font-size: var(--font-size-small); */
     }
     .first p:first-child {
         margin-top: var(--space-12);
@@ -710,7 +710,7 @@ body {
         /* font-weight: var(--font-weight-medium); */
         /* font-size: var(--font-size-large); */
         /* height: 23rem; */
-        /* border: 3px solid black; */
+        border: 3px solid black;
     }
     .first {
         /* border: 2px solid red; */
@@ -729,6 +729,7 @@ body {
         /* font-weight: var(--font-weight-small); */
         /* background-color: yellowgreen; */
     }
+
     .contact {
         margin: var(--space-12);
         padding: var(--space-12);
