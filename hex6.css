@@ -83,7 +83,9 @@
 *, ::after, ::before {
 	box-sizing: border-box;
 }
-
+html {
+    -webkit-text-size-adjust: 100%;
+  }
 html {
 	line-height: 18.4px;
 }
@@ -611,10 +613,11 @@ body {
         flex-flow: row wrap;
         word-break: break-word;
         /* margin-top: var(--space-32); */
-        font-size: var(--font-size-small);
+        /* font-size: var(--font-size-small); */
+        font-size: 16px;
         /* border: 2px solid yellow; */
         font-size: var(--font-size-small);
-        background-color: yellow;
+        background-color: yellowgreen;
     }
     .we-first {
         /* border: 2px solid black; */
@@ -649,7 +652,8 @@ body {
     }
     .we-design > h3, .we-develop > h3, .we-golive > h3 {
         /* border: 1px solid black; */
-        font-size: var(--font-size-small);
+        /* font-size: var(--font-size-small); */
+        font-size: 16px;
         font-weight: var(--font-weight-normal);
         padding-top: var(--space-12);
         padding-bottom: var(--space-8);
@@ -663,7 +667,8 @@ body {
         opacity: var(--opacity-9);
         font-family: var(--font-family-second);
         /* font-weight: var(--font-weight-small); */
-        font-size: var(--font-size-small);
+        /* font-size: var(--font-size-small); */
+        font-size: 16px;
 
     }
 
@@ -679,6 +684,7 @@ body {
         /* border: 2px solid lightblue; */
         /* background-color: lightgreen; */
         /* font-size: var(--font-size-small); */
+        font-size: 16px;
     }
     .first p:first-child {
         margin-top: var(--space-12);
