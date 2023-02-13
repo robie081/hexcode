@@ -613,6 +613,8 @@ body {
         /* margin-top: var(--space-32); */
         font-size: var(--font-size-small);
         /* border: 2px solid yellow; */
+        font-size: var(--font-size-small);
+        background-color: yellow;
     }
     .we-first {
         /* border: 2px solid black; */
@@ -662,6 +664,7 @@ body {
         font-family: var(--font-family-second);
         /* font-weight: var(--font-weight-small); */
         font-size: var(--font-size-small);
+
     }
 
     /* .first {
@@ -674,7 +677,7 @@ body {
         opacity: var(--opacity-9);
         font-family: var(--font-family-second);
         /* border: 2px solid lightblue; */
-        background-color: lightgreen;
+        /* background-color: lightgreen; */
         /* font-size: var(--font-size-small); */
     }
     .first p:first-child {
