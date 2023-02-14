@@ -260,7 +260,7 @@ a.active::after {
     /* animation-name: dropDiv;
     animation-iteration-count: 1;
     animation-timing-function: ease-in; */
-    animation-duration: 1s;
+    /* animation-duration: 1s; */
 }
 .we-develop {
     /* border: 2px solid black; */
@@ -268,7 +268,7 @@ a.active::after {
     /* animation-name: dropDiv;
     animation-iteration-count: 1;
     animation-timing-function: ease-in; */
-    animation-duration: 1.5s;
+    /* animation-duration: 1.5s; */
 }
 .we-golive {
     /* border: 2px solid black; */
@@ -276,7 +276,7 @@ a.active::after {
     /* animation-name: dropDiv;
     animation-iteration-count: 1;
     animation-timing-function: ease-in; */
-    animation-duration: 2s;
+    /* animation-duration: 2s; */
 }
 .we-design > h3, .we-develop > h3, .we-golive > h3 {
     /* border: 1px solid black; */
@@ -321,7 +321,7 @@ a.active::after {
     margin: var(--space-12);
     padding: var(--space-12);
     /* border: 3px solid green; */
-    transition: transform .2s;
+    /* transition: transform .2s; */
 }
 .cell-1 a {
     /* align-items: flex-end; */
@@ -330,9 +330,9 @@ a.active::after {
     font-size: var(--font-size-base);
     /* height: 1rem; */
 }
-.cell-1:hover {
+/* .cell-1:hover {
     transform: scale(1.1);
-}
+} */
 
 /* Contact */
 
@@ -377,6 +377,7 @@ a.active::after {
     /* border: 2px solid green; */
     flex-basis: 100%;
     padding-left: var(--space-12);
+    padding-bottom: var(--space-48);
     /* flex-shrink: 1; */
 
 }
@@ -400,11 +401,11 @@ a.active::after {
     border-radius: 5px;
     filter: grayscale(90%);
     filter: opacity(70%);
-    transition: transform .2s;
+    /* transition: transform .2s; */
 }
-.robert:hover {
+/* .robert:hover {
     transform: scale(1.02);
-}
+} */
 
 
 /* Tablet */
